@@ -1,0 +1,66 @@
+<!-- Savana Mongkhonvilay 4-6-2025 -->
+<html lang="en">
+    <head>
+        <title> My JS weekly earnings page </title>
+        <meta charset= "utf-8">
+    </head>
+
+    <style> 
+        body {
+            background-color: #f5a4a4;
+            font-family:'Courier New', Courier, monospace;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        h1 {
+            background-color: #fff;
+            padding: .5em; 
+            border-radius: .5em;
+            text-align: center;
+            margin-top: .5em;
+        }
+    </style>
+
+
+    <body>
+        <h1>  Hi, I am just testing some js code here.  </h1>
+            <h3>1.  When would you use a switch statement in your projects? </h3>
+                <p>A switch statement is great for when you have multiple choices or conditions,
+                    it can be used in placed of multiple if-else statements in a project for a cleaner look
+                </p>
+
+        <script> 
+            "use strict"; 
+
+            let favDay = prompt("What is your favorite day of the week?"); //step 1 
+
+            //step 2 
+            switch(favDay.toLowerCase()) {
+                //step 3  //step 4
+                case "monday": 
+                console.log ("Your favorite day of the week is Monday!"); 
+                break; //step 5
+                case "tuesday": 
+                console.log ("Your favorite day of the week is Tuesday!"); 
+                break; 
+                case "wednesday": 
+                console.log ("Your favorite day of the week is Wednesday!"); 
+                break; 
+                case "thursday": 
+                console.log ("Your favorite day of the week is Thursday!"); 
+                break; 
+                case "friday": 
+                console.log ("Your favorite day of the week is Friday!"); 
+                break; 
+                case "saturday": 
+                console.log ("Your favorite day of the week is Saturday!"); 
+                break; 
+                case "sunday": 
+                console.log ("Your favorite day of the week is Sunday!"); 
+                break; 
+                default: console.log("I do not recognize that day of the week") //step 6
+            }
+
+        </script>
+    </body>
+</html>

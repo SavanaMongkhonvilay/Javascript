@@ -1,0 +1,58 @@
+<!-- Savana Mongkhonvilay 4-5-2025 -->
+<html lang="en">
+    <head>
+        <title> My JS weekly earnings page </title>
+        <meta charset= "utf-8">
+    </head>
+
+    <style> 
+        body {
+            background-color: #f5a4a4;
+            font-family:'Courier New', Courier, monospace;
+        }
+        h1 {
+            background-color: #fff;
+            padding: .5em; 
+            border-radius: .5em;
+            text-align: center;
+        }
+    </style>
+
+
+    <body>
+        <h1>  Hi, I am just testing some js code here.  </h1>
+            <h3>Name a situation where you would need to create an "if" statement.  
+                (There are many answers to this question. ) </h3>
+                <p> An if statement would be useful for answering a form,
+                    depending on what the user selects it could take the user to different menus or options</p>
+            <h3>When comparing values,  in what data type is the result stored? 
+                (number, string, or boolean?)</h3>
+                <p> The result is stored as a boolean data type</p>
+
+        <script> 
+            "use strict"; 
+
+            let username = prompt("What is your name?"); //step 1 
+
+            //step 2 
+            let proceed = confirm('Do you give permission to use the username of "'
+             + username + '" on the webpage?'); 
+
+             //step 3
+            if (proceed) {
+            //step 4
+            console.log ("yes I can use your username " + username + " on this page" )
+            }
+            //step 5
+            else {
+                console.log ("No, you can not use my name on this web page. Privacy Please")
+            }
+
+            //step 6 
+            let age = prompt("what is your age? "); 
+            alert ("Hi " + username + "! You are " + age + " years old");
+
+
+        </script>
+    </body>
+</html>
